@@ -11,8 +11,15 @@ h1 {
     color: orangered;
 }
 
-.s-one {
+section {
+    margin-bottom: 150px;
+}
+
+.section-flex {
     display: flex;
+}
+
+.s-one {
     background-image: url(bg-img/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -36,9 +43,43 @@ h1 {
 }
 
 .dream-big {
-    display: flex;
     background-image: url(bg-img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 5%;
+}
+
+.ex-section {
+    display: flex;
+    background-image: url(bg-img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.ex-font {
+    font-size: xx-large;
+}
+
+.ex-con {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    box-shadow: 10px 10px 30px grey;
+}
+
+#baby-web {
+    border-left: 7px solid blueviolet;
+}
+
+#baby-web2 {
+    border-left: 7px solid orangered;
+}
+
+.color-or {
+    color: orangered;
+}
+
+footer {
+    text-align: center;
+    color: orangered;
 }
