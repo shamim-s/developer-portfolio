@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name {
+    color: orangered;
+}
+
+.s-one {
+    display: flex;
+    background-image: url(bg-img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.head-content {
+    width: 50%;
+    padding: 5%;
+}
+
+.head-content img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orangered, orange);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+}
