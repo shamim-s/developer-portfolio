@@ -34,3 +34,11 @@ h1 {
     border-radius: 10px;
     font-weight: 700;
 }
+
+.dream-big {
+    display: flex;
+    background-image: url(bg-img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
